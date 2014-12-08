@@ -1,0 +1,13 @@
+# Joe Guarni
+# Lab 1 - 6/5/2013
+# CISC106 Problem: 1)A)House 1 - Blue, GermanHouse 2 - Red, ItalianHouse 3 - Black, SpanishB)Woman 1 - Yellow, Florida, Pineapple, Tania, Lawyer, Make-upWoman 2 - White, Delaware, Orange Juice, Anna, Chef, Cut HairWoman 3 - Red, Massachusetts, Grape, Mary, Programmer, RelaxWoman 4 - Green, Pennsylvania, Lemon, Vivian, Dentist, Color Hair,Woman 5 - Blue, Georgia, Strawberry, Claudette, Publicist, ManicureProblem: 2)Step 1: Multiply 3 by increments of 1 starting at the number 1 and stopping at 333and record each answer in a table.
+Step 2: Multiply 5 by increments of 1 starting at the number 1 and stopping at 199and record each answer in a table.
+
+# This will produce duplicates of the multiples of 15. We must account for these duplicates and subtract them out.
+
+Step 3: Multiply 15 by increments of 1 starting at the number 1 and stopping at 66 and record each answer in a table.
+Step 4: Sum the results from the tables in step 1 and step 2, followed by subtracting the sum of the table from step 3. # This will give the final answer.Problem: 3)A)1) Ask user for width and height of a rectangle.
+2) Set height equal to h.3) Set width equal to w.4) Calculate A = w * h 5) A is equal to the area.Problem: 4)1) It is not possible to form a triangle.2) This is a scalene triangle.3) It is not possible to form a triangle.4) This is an equilateral triangle.5) This is an isosceles triangle.Problem: 5)1) Yes, Produces same results. Result: 2.52) No, One produces 2.5 and the other 0.253) No, One produces 8 and the other 4
+
+What is different? Also commented out in program.
+# By running the expressions in the idle shell it outputs the result of the single expression in the running shell. By placing these expressions in a new python program they will still calculate correctly internally because the syntax and math is correct, but the program needs to know what to do with this information. This is why the print command is used, which outputs the answers of the expressions to the user in a readable format.
